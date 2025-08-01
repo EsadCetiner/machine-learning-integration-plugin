@@ -1,13 +1,12 @@
 ---
 meta:
   author: "deepshikha-s"
-  enabled: true
-  rule_id: "9516120"
   description: |
     Test whether the machine learning passing mechanism works by testing whether rule 9516310 is triggered or not.
     For these tests, existing tests are repurposed with different assertions. Instead of asserting that the original
     rules are triggered that the tests are written for, we assert that triggering these rules causes the passing
     rule to be triggered.
+rule_id: "9516120"
 tests:
   - test_id: 0
     desc: Here we assert that the machine learning algorithm is not triggered
