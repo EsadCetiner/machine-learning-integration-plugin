@@ -8,7 +8,7 @@ meta:
     rule to be triggered.
 rule_id: 9516110
 tests:
-  - test_id: 0
+  - test_id: 1
     desc: Here we assert that the machine learning algorithm is triggered
     stages:
       - input:
@@ -23,7 +23,7 @@ tests:
         output:
           log:
             expect_ids: [9516110]
-  - test_id: 1
+  - test_id: 2
     desc: Here we assert that machine learning blocking algorithm is not triggered
     stages:
       - input:
@@ -39,7 +39,7 @@ tests:
         output:
           log:
             no_expect_ids: [9516110]
-  - test_id: 2
+  - test_id: 3
     desc: Here we assert that the machine learning algorithm is not triggered
     stages:
       - input:
@@ -56,7 +56,7 @@ tests:
         output:
           log:
             no_expect_ids: [9516110]
-  - test_id: 3
+  - test_id: 4
     desc: Here we assert that the machine learning algorithm is triggered
     stages:
       - input:
@@ -73,7 +73,7 @@ tests:
         output:
           log:
             expect_ids: [9516320]
-  - test_id: 4
+  - test_id: 5
     desc: Here we assert that the scores are summed up and reported properly
     stages:
       - input:
