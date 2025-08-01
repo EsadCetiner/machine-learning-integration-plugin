@@ -6,7 +6,7 @@ meta:
     For these tests, existing tests are repurposed with different assertions. Instead of asserting that the original
     rules are triggered that the tests are written for, we assert that triggering these rules causes the passing
     rule to be triggered.
-rule_id: "9516120"
+rule_id: 9516120
 tests:
   - test_id: 0
     desc: Here we assert that the machine learning algorithm is not triggered
